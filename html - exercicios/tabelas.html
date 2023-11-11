@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <main>
+        <h1>Tabelas no HTML</h1>
+        <section id="students">
+            <h2>Tabela de Alunos</h2>
+            
+            <table border="1">
+                <thead><!-- Cabeçalho da tabela -->
+                    <tr><!-- Linha da tabela -->
+                        <th>Nome</th><!-- Célula do cabeçalho -->
+                        <th>Email</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+                <tbody><!-- Corpo da tabela -->
+                    <tr>
+                        <td>Matheus</td><!-- Célula do corpo -->
+                        <td>matheusferraz@gmail.com</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Ferraz</td>
+                        <td>ferrazmatheus@gmail.com</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Pinheiro</td>
+                        <td>ferrazpinheiro@gmail.com</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="finance">
+            <h2>Tabela de Controle Financeiro</h2>
+
+            <table border="2">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">15/06/2023</td>
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>R$ 3768,00</td>
+                    </tr>
+                    <tr>
+                        <td>Despesa</td>
+                        <td>Almoço</td>
+                        <td>R$ 35,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
