@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>We Form</title>
+</head>
+<body>
+    <div class="content">
+        <aside>
+            <img src="assets/hero.svg" alt="Dog and Woman">
+            <h1><span>We</span> Form</h1>
+        </aside>
+
+        <main>
+            <header>
+                <a href="index.html">
+                    <i class="fa-solid fa-angle-left"></i>
+                </a>
+                <h2>Nova <span>entidade</span></h2>
+            </header>
+
+            <form>
+                <label for="nome">nome</label>
+                <input type="text" name="nome" id="nome">
+
+                <label for="atuacao">campo de atuação</label>
+                <div class="select-div">
+                    <select name="atuacao" id="atuacao">
+                        <option disabled selected></option>
+                        <option value="abrigo">Abrigo de Animais</option>
+                        <option value="alimentacao">Centro de Alimentação</option>
+                        <option value="creche">Creche Infantil</option>
+                    </select>
+                </div>
+
+                <label for="coleta">pontos de coleta</label>
+                <div class="pontos-coleta">
+                    <input type="text" name="coleta" id="coleta">
+                    <button>
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </button>
+                </div>
+            </form>
+            
+            <div class="actions">
+                <a href="#">Cadastrar</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
