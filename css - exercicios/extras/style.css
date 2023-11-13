@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #ab00ff;
+    font-size: 9.6rem;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+.spinner-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-spinner {
+    margin: 2rem;
+    font-size: 5rem;
+    animation: load 1.5s infinite;
+}
+
+@keyframes load {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+[data-button="products"] {
+    /* width: 100%; */
+    margin: 0 auto;
+    background: steelblue;
+    color: #fff;
+    border: none;
+    font-size: 2.8rem;
+    padding: .6rem 2.4rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out, background-color 1s ease-in-out;
+    display: block;
+}
+
+[data-button="products"]:hover {
+    transform: scale(1.2);
+    background-color: lightblue;
+}
+
+#companies-table, td, th {
+    border: 1px solid black;
+}
+
+#companies-table [data-title="titles"] {
+    background-color: steelblue;
+    color: aliceblue;
+}
+
+#companies-table [data-company]:nth-child(2n + 3) {
+    background-color: #aaaaaa;
+}
+
+#companies-table {
+    font-size: 2.5rem;
+}
+
+[data-button="team"] {
+    margin: 0 auto;
+    background: steelblue;
+    color: #fff;
+    border: none;
+    font-size: 2.8rem;
+    padding: .6rem 2.4rem;
+    cursor: pointer;
+    display: block;
+    animation: pulse 2s infinite;
+    animation-direction: alternate;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.35);
+        opacity: .6;
+    }
+}
+
+
+.bg {
+    height: 30vh;
+    width: 100%;
+    background-color: #ff0000;
+    background-image: url('https://images.unsplash.com/photo-1699656844811-ce67291ab27a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@media screen and (min-width: 767px) {
+    .bg {
+        height: 50vh;
+    }
+}
+
+@media print {
+    .bg {
+        display: none;
+    }
+}
