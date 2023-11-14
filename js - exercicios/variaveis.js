@@ -28,4 +28,4 @@ var variavel = 20; //sintaxe antiga, não utilizar
 
 const constante = 100;
 
-console.log(constante)
+console.log(constante);
