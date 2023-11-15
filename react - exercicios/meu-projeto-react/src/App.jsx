@@ -1,6 +1,7 @@
 import MeuComponente from './components/MeuComponente'
 import MeuContador from './components/MeuContador'
 import MinhaLista from './components/MinhaLista'
+import BuscaDeDados from './components/BuscaDeDados'
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <hr />
       <h1>Minha Lista</h1>
       <MinhaLista />
+      <hr />
+      <h1>Buscando Dados</h1>
+      <BuscaDeDados />
     </>
   )
 }
