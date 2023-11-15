@@ -1,5 +1,6 @@
 import MeuComponente from './components/MeuComponente'
 import MeuContador from './components/MeuContador'
+import MinhaLista from './components/MinhaLista'
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <MeuBotao conteudo='por fim aqui' /> */}
       <hr></hr>
       <MeuContador />
+      <hr />
+      <h1>Minha Lista</h1>
+      <MinhaLista />
     </>
   )
 }
