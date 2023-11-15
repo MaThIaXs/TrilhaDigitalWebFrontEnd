@@ -3,5 +3,5 @@ Projetos feitos no curso Trilha Digital Web Front-End dado pela Ada Tech, no qua
 
 Nesse repositório eu deixei salvo todos os projetos e atividades práticas feitas durante as aulas dos curso de HTML, CSS, JS e React.
 
-Abaixo esta o link do projeto feito durante as aulas utilizando Vite + React
-[https://trilha-digital-web-front-end.vercel.app]
+Abaixo esta o link do projeto feito durante as aulas utilizando Vite + React<br>
+<a href="https://trilha-digital-web-front-end.vercel.app" target="_blank">Deploy meu-projeto-react</a>
